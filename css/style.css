@@ -116,9 +116,21 @@ a{
   /* background: linear-gradient(transparent 80%, #add8e6 80%); */
 }
 
+.news_section{
+  padding: 5px 0px;
+}
+
 .div_member{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.div_logo{
+  display: flex;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
   padding: 20px 0px;
@@ -158,10 +170,20 @@ footer{
   .header_pc{
     display: none;
   }
+
+  .logo_img{
+    width: 8%;
+    padding: 0px 15px;
+  }
 }
 
 @media (min-width: 570px) {
   .header_sp{
     display: none;
+  }
+
+  .logo_img{
+    width: 50px;
+    padding: 0px 15px;
   }
 }
